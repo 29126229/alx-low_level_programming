@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Print a text according to number
+ * main - Print a text according number
  * Return: Always (Success)
- *
  */
 int main(void)
 {
