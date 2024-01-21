@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- * mul - func checks for checks for a digit (0 through).
- * @a: a - Variable
- * @b: b - variable
- * Return: Always 0.
+ * _isdigit - function check for a digit (0 through 9)
+ * @c: inter to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int mul(int a, int b)
+int _isdigit(int c)
 {
-	int mul;
-
-	mul = a * b;
-	return (mul);
+	return (c >= '0' && c<= '9');
 }
