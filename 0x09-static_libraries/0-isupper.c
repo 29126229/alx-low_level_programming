@@ -1,5 +1,3 @@
-!<arch>
-0-isupper.c/    0           0     0     644     185       `
 #include "main.h"
 /**
  * _isupper - uppercase letters
@@ -14,5 +12,4 @@ int _isupper(int c)
 	else
 	return (0);
 }
-
 
