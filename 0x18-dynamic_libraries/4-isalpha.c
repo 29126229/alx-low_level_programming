@@ -1,15 +1,17 @@
 #include "main.h"
-/**
- * _isalpha - Check if character is a alphabet character.
- * @c: type int character
- * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
- */
 
+/**
+ * _isalpha - check for letters
+ * @c: input
+ *
+ * Return: 1 if c is an alphabet, 0 otherwise.
+ * Author: Jaba  @Kiit on Oct 03, 2022 in room 21
+ */
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
-
 	else
 		return (0);
 }
+ 
